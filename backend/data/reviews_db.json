@@ -1,0 +1,1754 @@
+{
+  "reviews": [
+    {
+      "product_name": "Vitamin C Serum",
+      "category": "Beauty & Personal Care",
+      "reviewer_name": "PromoAffiliate",
+      "rating": 5,
+      "review_text": "Check out bit.ly/greatdeals for promo code SAVE20! 100% genuine miracle product link in bio buy now!",
+      "text_hash": "58de307833b0035c4cdb9469497148a9",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 97.67,
+      "probabilities": {
+        "genuine": 2.33,
+        "fake": 97.67
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.005,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 97.67% statistical confidence. Elevated promotional and hyper-enthusiastic phrasing was detected. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 100,
+        "word_count": 18,
+        "character_count": 100,
+        "sentiment": "Neutral",
+        "sentiment_intensity": 0.1,
+        "sentiment_polarity": 0,
+        "promotional_language_score": 100,
+        "promotional_phrases": [
+          "buy now",
+          "Check out",
+          "promo code",
+          "miracle",
+          "bit.ly",
+          "link in bio"
+        ],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.03,
+        "exclamation_count": 2,
+        "capitalization_ratio": 0.067,
+        "product_specificity_score": 21,
+        "product_relevance_score": 45,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": true,
+        "rating_sentiment_details": "Rating aligns with review tone.",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Excessive promotional language",
+            "description": "Detected promotional phrasing (buy now, Check out, promo code).",
+            "severity": "High"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": [
+          {
+            "start": 92,
+            "end": 99,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 32,
+            "end": 42,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 64,
+            "end": 71,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          }
+        ]
+      },
+      "activated_terms": [
+        {
+          "term": "bio",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "bit ly",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "code save20",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "greatdeals",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "greatdeals for",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "in bio",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "link",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "link in",
+          "tfidf_weight": 0.211
+        }
+      ],
+      "createdAt": "2026-10-09T06:36:25.362Z",
+      "_id": "rev_1791527785365_358"
+    },
+    {
+      "product_name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "reviewer_name": "AngryBuyer",
+      "rating": 5,
+      "review_text": "Terrible horrible device! It arrived completely broken and shattered, toxic smell, worst product ever waste of money!",
+      "text_hash": "2b089cbe6cb57ecd42c34496eccf992c",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 68.38,
+      "probabilities": {
+        "genuine": 31.62,
+        "fake": 68.38
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.005,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 68.38% statistical confidence. There is an internal contradiction between the numerical rating and textual sentiment. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 117,
+        "word_count": 17,
+        "character_count": 117,
+        "sentiment": "Negative",
+        "sentiment_intensity": 0.447,
+        "sentiment_polarity": -0.884,
+        "promotional_language_score": 0,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.034,
+        "exclamation_count": 2,
+        "capitalization_ratio": 0.021,
+        "product_specificity_score": 20,
+        "product_relevance_score": 58,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": false,
+        "rating_sentiment_details": "Critical contradiction: High rating (5 stars) paired with strongly negative sentiment (Negative, polarity -0.884).",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Rating-sentiment mismatch",
+            "description": "Critical contradiction: High rating (5 stars) paired with strongly negative sentiment (Negative, polarity -0.884).",
+            "severity": "Medium"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": []
+      },
+      "activated_terms": [
+        {
+          "term": "money",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "product ever",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "waste",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "arrived",
+          "tfidf_weight": 0.355
+        },
+        {
+          "term": "completely",
+          "tfidf_weight": 0.355
+        },
+        {
+          "term": "product",
+          "tfidf_weight": 0.274
+        },
+        {
+          "term": "of",
+          "tfidf_weight": 0.248
+        },
+        {
+          "term": "ever",
+          "tfidf_weight": 0.241
+        }
+      ],
+      "createdAt": "2026-10-09T06:36:25.312Z",
+      "_id": "rev_1791527785316_743"
+    },
+    {
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "reviewer_name": "Rahul123",
+      "rating": 5,
+      "review_text": "AMAZING BEST EVER PRODUCT! Buy this right now 100% recommended guaranteed satisfaction incredible deal!!!",
+      "text_hash": "e24eb51a3e9286d00ca5da44810f2036",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 99.48,
+      "probabilities": {
+        "genuine": 0.52,
+        "fake": 99.48
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.023,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 99.48% statistical confidence. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 105,
+        "word_count": 14,
+        "character_count": 105,
+        "sentiment": "Positive",
+        "sentiment_intensity": 0.2,
+        "sentiment_polarity": 0.737,
+        "promotional_language_score": 15,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.038,
+        "exclamation_count": 4,
+        "capitalization_ratio": 0.274,
+        "product_specificity_score": 16,
+        "product_relevance_score": 45,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": true,
+        "rating_sentiment_details": "Rating aligns with review tone.",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Excessive punctuation hype",
+            "description": "Contains 4 exclamation marks creating artificial urgency.",
+            "severity": "Low"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": [
+          {
+            "start": 102,
+            "end": 105,
+            "type": "punctuation",
+            "label": "Excessive Punctuation"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          }
+        ]
+      },
+      "activated_terms": [
+        {
+          "term": "amazing best",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "deal",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "ever product",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "guaranteed satisfaction",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "incredible deal",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "product buy",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "recommended guaranteed",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "satisfaction incredible",
+          "tfidf_weight": 0.23
+        }
+      ],
+      "createdAt": "2026-10-09T06:36:25.224Z",
+      "_id": "rev_1791527785226_64"
+    },
+    {
+      "product_name": "Vitamin C Serum",
+      "category": "Beauty & Personal Care",
+      "reviewer_name": "PromoAffiliate",
+      "rating": 5,
+      "review_text": "Check out bit.ly/greatdeals for promo code SAVE20! 100% genuine miracle product link in bio buy now!",
+      "text_hash": "58de307833b0035c4cdb9469497148a9",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 97.67,
+      "probabilities": {
+        "genuine": 2.33,
+        "fake": 97.67
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.008,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 97.67% statistical confidence. Elevated promotional and hyper-enthusiastic phrasing was detected. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 100,
+        "word_count": 18,
+        "character_count": 100,
+        "sentiment": "Neutral",
+        "sentiment_intensity": 0.1,
+        "sentiment_polarity": 0,
+        "promotional_language_score": 100,
+        "promotional_phrases": [
+          "buy now",
+          "Check out",
+          "promo code",
+          "miracle",
+          "bit.ly",
+          "link in bio"
+        ],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.03,
+        "exclamation_count": 2,
+        "capitalization_ratio": 0.067,
+        "product_specificity_score": 21,
+        "product_relevance_score": 45,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": true,
+        "rating_sentiment_details": "Rating aligns with review tone.",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Excessive promotional language",
+            "description": "Detected promotional phrasing (buy now, Check out, promo code).",
+            "severity": "High"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": [
+          {
+            "start": 92,
+            "end": 99,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 32,
+            "end": 42,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 64,
+            "end": 71,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          }
+        ]
+      },
+      "activated_terms": [
+        {
+          "term": "bio",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "bit ly",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "code save20",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "greatdeals",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "greatdeals for",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "in bio",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "link",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "link in",
+          "tfidf_weight": 0.211
+        }
+      ],
+      "createdAt": "2026-10-09T06:35:22.533Z",
+      "_id": "rev_1791527722536_657"
+    },
+    {
+      "product_name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "reviewer_name": "AngryBuyer",
+      "rating": 5,
+      "review_text": "Terrible horrible device! It arrived completely broken and shattered, toxic smell, worst product ever waste of money!",
+      "text_hash": "2b089cbe6cb57ecd42c34496eccf992c",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 68.38,
+      "probabilities": {
+        "genuine": 31.62,
+        "fake": 68.38
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.007,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 68.38% statistical confidence. There is an internal contradiction between the numerical rating and textual sentiment. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 117,
+        "word_count": 17,
+        "character_count": 117,
+        "sentiment": "Negative",
+        "sentiment_intensity": 0.447,
+        "sentiment_polarity": -0.884,
+        "promotional_language_score": 0,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.034,
+        "exclamation_count": 2,
+        "capitalization_ratio": 0.021,
+        "product_specificity_score": 20,
+        "product_relevance_score": 58,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": false,
+        "rating_sentiment_details": "Critical contradiction: High rating (5 stars) paired with strongly negative sentiment (Negative, polarity -0.884).",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Rating-sentiment mismatch",
+            "description": "Critical contradiction: High rating (5 stars) paired with strongly negative sentiment (Negative, polarity -0.884).",
+            "severity": "Medium"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": []
+      },
+      "activated_terms": [
+        {
+          "term": "money",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "product ever",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "waste",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "arrived",
+          "tfidf_weight": 0.355
+        },
+        {
+          "term": "completely",
+          "tfidf_weight": 0.355
+        },
+        {
+          "term": "product",
+          "tfidf_weight": 0.274
+        },
+        {
+          "term": "of",
+          "tfidf_weight": 0.248
+        },
+        {
+          "term": "ever",
+          "tfidf_weight": 0.241
+        }
+      ],
+      "createdAt": "2026-10-09T06:35:22.477Z",
+      "_id": "rev_1791527722479_601"
+    },
+    {
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "reviewer_name": "Rahul123",
+      "rating": 5,
+      "review_text": "AMAZING BEST EVER PRODUCT! Buy this right now 100% recommended guaranteed satisfaction incredible deal!!!",
+      "text_hash": "e24eb51a3e9286d00ca5da44810f2036",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 99.48,
+      "probabilities": {
+        "genuine": 0.52,
+        "fake": 99.48
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.009,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 99.48% statistical confidence. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 105,
+        "word_count": 14,
+        "character_count": 105,
+        "sentiment": "Positive",
+        "sentiment_intensity": 0.2,
+        "sentiment_polarity": 0.737,
+        "promotional_language_score": 15,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.038,
+        "exclamation_count": 4,
+        "capitalization_ratio": 0.274,
+        "product_specificity_score": 16,
+        "product_relevance_score": 45,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": true,
+        "rating_sentiment_details": "Rating aligns with review tone.",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Excessive punctuation hype",
+            "description": "Contains 4 exclamation marks creating artificial urgency.",
+            "severity": "Low"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": [
+          {
+            "start": 102,
+            "end": 105,
+            "type": "punctuation",
+            "label": "Excessive Punctuation"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "type": "capitalization",
+            "label": "All Caps Token"
+          }
+        ]
+      },
+      "activated_terms": [
+        {
+          "term": "amazing best",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "deal",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "ever product",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "guaranteed satisfaction",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "incredible deal",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "product buy",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "recommended guaranteed",
+          "tfidf_weight": 0.23
+        },
+        {
+          "term": "satisfaction incredible",
+          "tfidf_weight": 0.23
+        }
+      ],
+      "createdAt": "2026-10-09T06:35:22.389Z",
+      "_id": "rev_1791527722392_715"
+    },
+    {
+      "product_name": "Vitamin C Serum",
+      "category": "Beauty & Personal Care",
+      "reviewer_name": "PromoAffiliate",
+      "rating": 5,
+      "review_text": "Check out bit.ly/greatdeals for promo code SAVE20! 100% genuine miracle product link in bio buy now!",
+      "text_hash": "58de307833b0035c4cdb9469497148a9",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 97.67,
+      "probabilities": {
+        "genuine": 2.33,
+        "fake": 97.67
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.007,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 97.67% statistical confidence. Elevated promotional and hyper-enthusiastic phrasing was detected. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 100,
+        "word_count": 18,
+        "character_count": 100,
+        "sentiment": "Neutral",
+        "sentiment_intensity": 0.1,
+        "sentiment_polarity": 0,
+        "promotional_language_score": 100,
+        "promotional_phrases": [
+          "buy now",
+          "Check out",
+          "promo code",
+          "miracle",
+          "bit.ly",
+          "link in bio"
+        ],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.03,
+        "exclamation_count": 2,
+        "capitalization_ratio": 0.067,
+        "product_specificity_score": 21,
+        "product_relevance_score": 45,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": true,
+        "rating_sentiment_details": "Rating aligns with review tone.",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Excessive promotional language",
+            "description": "Detected promotional phrasing (buy now, Check out, promo code).",
+            "severity": "High"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": [
+          {
+            "start": 92,
+            "end": 99,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 32,
+            "end": 42,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 64,
+            "end": 71,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          },
+          {
+            "start": 80,
+            "end": 91,
+            "type": "promotional",
+            "label": "Promotional Phrase"
+          }
+        ]
+      },
+      "activated_terms": [
+        {
+          "term": "bio",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "bit ly",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "code save20",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "greatdeals",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "greatdeals for",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "in bio",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "link",
+          "tfidf_weight": 0.211
+        },
+        {
+          "term": "link in",
+          "tfidf_weight": 0.211
+        }
+      ],
+      "createdAt": "2026-10-09T06:33:51.924Z",
+      "_id": "rev_1791527631926_446"
+    },
+    {
+      "product_name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "reviewer_name": "AngryBuyer",
+      "rating": 5,
+      "review_text": "Terrible horrible device! It arrived completely broken and shattered, toxic smell, worst product ever waste of money!",
+      "text_hash": "2b089cbe6cb57ecd42c34496eccf992c",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 68.38,
+      "probabilities": {
+        "genuine": 31.62,
+        "fake": 68.38
+      },
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.008,
+      "review_quality_score": 100,
+      "explanation": "The supervised Naive Bayes model classified this review as Fake with 68.38% statistical confidence. There is an internal contradiction between the numerical rating and textual sentiment. Text relies on vague generic claims rather than concrete product attributes. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 117,
+        "word_count": 17,
+        "character_count": 117,
+        "sentiment": "Negative",
+        "sentiment_intensity": 0.447,
+        "sentiment_polarity": -0.884,
+        "promotional_language_score": 0,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.034,
+        "exclamation_count": 2,
+        "capitalization_ratio": 0.021,
+        "product_specificity_score": 20,
+        "product_relevance_score": 58,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": false,
+        "rating_sentiment_details": "Critical contradiction: High rating (5 stars) paired with strongly negative sentiment (Negative, polarity -0.884).",
+        "text_quality_score": 100,
+        "suspicious_indicators": [
+          {
+            "title": "Rating-sentiment mismatch",
+            "description": "Critical contradiction: High rating (5 stars) paired with strongly negative sentiment (Negative, polarity -0.884).",
+            "severity": "Medium"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "Vague generic praise lacking mention of concrete features, dimensions, or usage details.",
+            "severity": "Low"
+          }
+        ],
+        "highlight_spans": []
+      },
+      "activated_terms": [
+        {
+          "term": "money",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "product ever",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "waste",
+          "tfidf_weight": 0.388
+        },
+        {
+          "term": "arrived",
+          "tfidf_weight": 0.355
+        },
+        {
+          "term": "completely",
+          "tfidf_weight": 0.355
+        },
+        {
+          "term": "product",
+          "tfidf_weight": 0.274
+        },
+        {
+          "term": "of",
+          "tfidf_weight": 0.248
+        },
+        {
+          "term": "ever",
+          "tfidf_weight": 0.241
+        }
+      ],
+      "createdAt": "2026-10-09T06:33:51.877Z",
+      "_id": "rev_1791527631879_364"
+    },
+    {
+      "product_name": "Sony WH-1000XM5 Headphones",
+      "category": "Electronics",
+      "reviewer_name": "David K.",
+      "rating": 4,
+      "review_text": "The battery lasts around 28 hours with active noise cancelling turned on. Sound reproduction is balanced with crisp highs, though the headband padding creates minor pressure after 3 hours of continuous use.",
+      "text_hash": "b9eebecf608c2767d16382de0fb2ba5b",
+      "prediction": "Genuine",
+      "is_fake": false,
+      "confidence": 93.31,
+      "probabilities": {
+        "genuine": 93.31,
+        "fake": 6.69
+      },
+      "risk_level": "Low",
+      "model_used": "Naive Bayes",
+      "is_best_model": true,
+      "analysis_time_seconds": 0.142,
+      "review_quality_score": 95,
+      "explanation": "The supervised Naive Bayes model classified this review as Genuine with 93.31% confidence. Natural linguistic variety, balanced sentiment, and concrete contextual descriptions were present. This diagnosis is produced by multi-parameter TF-IDF ML feature representation and behavioral forensics; no single keyword alone dictates the final classification.",
+      "features": {
+        "review_length": 206,
+        "word_count": 32,
+        "character_count": 206,
+        "sentiment": "Neutral",
+        "sentiment_intensity": 0.1,
+        "sentiment_polarity": 0,
+        "promotional_language_score": 0,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "repeated_phrases": [],
+        "excessive_punctuation_ratio": 0.015,
+        "exclamation_count": 0,
+        "capitalization_ratio": 0.012,
+        "product_specificity_score": 82,
+        "product_relevance_score": 62,
+        "is_category_mismatch": false,
+        "category_mismatch_reason": "",
+        "rating_sentiment_consistency": true,
+        "rating_sentiment_details": "Rating aligns with review tone.",
+        "text_quality_score": 95,
+        "suspicious_indicators": [],
+        "highlight_spans": []
+      },
+      "activated_terms": [
+        {
+          "term": "hours",
+          "tfidf_weight": 0.293
+        },
+        {
+          "term": "with",
+          "tfidf_weight": 0.225
+        },
+        {
+          "term": "active",
+          "tfidf_weight": 0.215
+        },
+        {
+          "term": "active noise",
+          "tfidf_weight": 0.215
+        },
+        {
+          "term": "balanced",
+          "tfidf_weight": 0.215
+        },
+        {
+          "term": "balanced with",
+          "tfidf_weight": 0.215
+        },
+        {
+          "term": "battery",
+          "tfidf_weight": 0.215
+        },
+        {
+          "term": "creates",
+          "tfidf_weight": 0.215
+        }
+      ],
+      "createdAt": "2026-10-09T06:33:51.773Z",
+      "_id": "rev_1791527631775_330"
+    },
+    {
+      "_id": "rev_001",
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "reviewer_name": "Rahul123",
+      "rating": 5,
+      "review_text": "AMAZING BEST EVER PRODUCT!!! Buy this right now 100% recommended guaranteed satisfaction incredible deal!!!!!",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 87.4,
+      "risk_level": "High",
+      "model_used": "SVM",
+      "analysis_time_seconds": 1.2,
+      "review_quality_score": 42,
+      "text_hash": "e9c64cc0a0df8e35144c1829822c721f",
+      "createdAt": "2026-10-09T04:25:36.891Z",
+      "features": {
+        "review_length": 109,
+        "word_count": 14,
+        "character_count": 109,
+        "sentiment": "Positive",
+        "sentiment_intensity": 0.8,
+        "sentiment_polarity": 0.74,
+        "promotional_language_score": 85,
+        "promotional_phrases": [
+          "buy this right now",
+          "guaranteed satisfaction"
+        ],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "excessive_punctuation_ratio": 0.073,
+        "exclamation_count": 8,
+        "capitalization_ratio": 0.42,
+        "product_specificity_score": 16,
+        "product_relevance_score": 45,
+        "rating_sentiment_consistency": true,
+        "text_quality_score": 42,
+        "suspicious_indicators": [
+          {
+            "title": "Excessive promotional language",
+            "description": "Uses words like 'best', 'amazing', 'must buy'",
+            "severity": "High"
+          },
+          {
+            "title": "Excessive punctuation",
+            "description": "Contains 8 exclamation marks",
+            "severity": "High"
+          },
+          {
+            "title": "Low product specificity",
+            "description": "No technical details mentioned",
+            "severity": "Medium"
+          }
+        ]
+      },
+      "explanation": "The review is classified as fake due to a combination of promotional language, excessive punctuation hype, low product specificity, and hyper-enthusiastic generic praise."
+    },
+    {
+      "_id": "rev_002",
+      "product_name": "Smart Watch",
+      "category": "Electronics",
+      "reviewer_name": "Sneha_09",
+      "rating": 4,
+      "review_text": "The smart watch tracks heart rate accurately compared to my chest strap during jogging, but the sleep tracking sometimes counts watching TV as light sleep.",
+      "prediction": "Genuine",
+      "is_fake": false,
+      "confidence": 96.2,
+      "risk_level": "Low",
+      "model_used": "SVM",
+      "analysis_time_seconds": 0.9,
+      "review_quality_score": 92,
+      "text_hash": "494766e8bc1c09a7c90c225ac3098a3b",
+      "createdAt": "2026-10-09T04:15:36.892Z",
+      "features": {
+        "review_length": 154,
+        "word_count": 27,
+        "character_count": 154,
+        "sentiment": "Neutral",
+        "sentiment_intensity": 0.3,
+        "sentiment_polarity": 0.12,
+        "promotional_language_score": 0,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "excessive_punctuation_ratio": 0.013,
+        "exclamation_count": 0,
+        "capitalization_ratio": 0.04,
+        "product_specificity_score": 85,
+        "product_relevance_score": 95,
+        "rating_sentiment_consistency": true,
+        "text_quality_score": 92,
+        "suspicious_indicators": []
+      },
+      "explanation": "Natural balanced language describing specific sensor behavior, nuanced trade-offs, and typical user experience."
+    },
+    {
+      "_id": "rev_003",
+      "product_name": "Backpack",
+      "category": "Fashion & Apparel",
+      "reviewer_name": "Aman45",
+      "rating": 5,
+      "review_text": "BEST BAG IN THE UNIVERSE BUY NOW BUY NOW BUY NOW DO NOT MISS OUT 1000% SATISFACTION!!",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 98.7,
+      "risk_level": "High",
+      "model_used": "Naive Bayes",
+      "analysis_time_seconds": 0.8,
+      "review_quality_score": 35,
+      "text_hash": "2e277812754b5a8263778d513c95375f",
+      "createdAt": "2026-10-09T03:59:36.892Z",
+      "features": {
+        "review_length": 86,
+        "word_count": 16,
+        "character_count": 86,
+        "sentiment": "Positive",
+        "sentiment_intensity": 0.9,
+        "sentiment_polarity": 0.8,
+        "promotional_language_score": 92,
+        "promotional_phrases": [
+          "buy now",
+          "1000% satisfaction"
+        ],
+        "repeated_words_count": 1,
+        "repeated_phrases_count": 2,
+        "repeated_phrases": [
+          "buy now"
+        ],
+        "excessive_punctuation_ratio": 0.04,
+        "exclamation_count": 4,
+        "capitalization_ratio": 0.92,
+        "product_specificity_score": 10,
+        "product_relevance_score": 30,
+        "rating_sentiment_consistency": true,
+        "text_quality_score": 35,
+        "suspicious_indicators": [
+          {
+            "title": "Repetitive promotional phrases",
+            "description": "Repeated 'BUY NOW' 3 times",
+            "severity": "High"
+          },
+          {
+            "title": "Excessive capitalization",
+            "description": "92% uppercase letters",
+            "severity": "High"
+          }
+        ]
+      },
+      "explanation": "Repetitive spam chant with overwhelming capitalization and commercial call-to-actions."
+    },
+    {
+      "_id": "rev_004",
+      "product_name": "Lip Balm",
+      "category": "Beauty & Personal Care",
+      "reviewer_name": "PoojaK",
+      "rating": 1,
+      "review_text": "Absolutely stunning holy grail product! Best lip balm ever made, 500 stars to this divine gift!!",
+      "prediction": "Fake",
+      "is_fake": true,
+      "confidence": 76.5,
+      "risk_level": "Medium",
+      "model_used": "Logistic Regression",
+      "analysis_time_seconds": 1.1,
+      "review_quality_score": 55,
+      "text_hash": "099486850d64b47031c2ae96cebd60a5",
+      "createdAt": "2026-10-09T03:41:36.892Z",
+      "features": {
+        "review_length": 96,
+        "word_count": 16,
+        "character_count": 96,
+        "sentiment": "Positive",
+        "sentiment_intensity": 0.85,
+        "sentiment_polarity": 0.88,
+        "promotional_language_score": 65,
+        "promotional_phrases": [
+          "holy grail",
+          "500 stars"
+        ],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "excessive_punctuation_ratio": 0.05,
+        "exclamation_count": 3,
+        "capitalization_ratio": 0.06,
+        "product_specificity_score": 25,
+        "product_relevance_score": 75,
+        "rating_sentiment_consistency": false,
+        "rating_sentiment_details": "Critical contradiction: 1-star rating paired with extreme positive praise.",
+        "text_quality_score": 55,
+        "suspicious_indicators": [
+          {
+            "title": "Rating-sentiment mismatch",
+            "description": "1-star rating paired with glowing praise",
+            "severity": "Medium"
+          }
+        ]
+      },
+      "explanation": "Extreme praise coupled with a 1-star rating points toward review bot inversion or contradictory astroturfing."
+    },
+    {
+      "_id": "rev_005",
+      "product_name": "T-shirt",
+      "category": "Fashion & Apparel",
+      "reviewer_name": "Rohan_7",
+      "rating": 4,
+      "review_text": "Cotton shirt feels soft and pre-shrunk. Sizing fits true across the shoulders, though sleeve length is slightly long.",
+      "prediction": "Genuine",
+      "is_fake": false,
+      "confidence": 94.8,
+      "risk_level": "Low",
+      "model_used": "SVM",
+      "analysis_time_seconds": 0.9,
+      "review_quality_score": 90,
+      "text_hash": "df50f2805d15e18be8ae8f48bfa19640",
+      "createdAt": "2026-10-09T03:32:36.892Z",
+      "features": {
+        "review_length": 119,
+        "word_count": 18,
+        "character_count": 119,
+        "sentiment": "Positive",
+        "sentiment_intensity": 0.35,
+        "sentiment_polarity": 0.35,
+        "promotional_language_score": 0,
+        "promotional_phrases": [],
+        "repeated_words_count": 0,
+        "repeated_phrases_count": 0,
+        "excessive_punctuation_ratio": 0.02,
+        "exclamation_count": 0,
+        "capitalization_ratio": 0.02,
+        "product_specificity_score": 80,
+        "product_relevance_score": 95,
+        "rating_sentiment_consistency": true,
+        "text_quality_score": 90,
+        "suspicious_indicators": []
+      },
+      "explanation": "Realistic feedback noting fabric hand-feel, fit dimensions, and a reasonable qualification regarding sleeve length."
+    }
+  ],
+  "failures": [
+    {
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "reviewer_name": "Rahul123",
+      "rating": 5,
+      "review_snippet": "AMAZING BEST EVER PRODUCT!!! Buy this right now 100% recommended guaranteed sati",
+      "errors": {
+        "review_text": "Excessive repeated characters detected (e.g. 'soooooooo'). Please provide valid natural language."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527982449",
+      "timestamp": "2026-10-09T06:39:42.449Z"
+    },
+    {
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "reviewer_name": "Rahul123",
+      "rating": 5,
+      "review_snippet": "AMAZING BEST EVER PRODUCT!!! Buy this right now 100% recommended guaranteed sati",
+      "errors": {
+        "review_text": "Excessive repeated characters detected (e.g. 'soooooooo'). Please provide valid natural language."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527982429",
+      "timestamp": "2026-10-09T06:39:42.429Z"
+    },
+    {
+      "product_name": "Dell XPS 15 Laptop",
+      "category": "Electronics",
+      "reviewer_name": "FoodBlogger",
+      "rating": 5,
+      "review_snippet": "Delicious creamy cheese and fresh pastry baked to crispy perfection with sweet o",
+      "error_type": "Content-Category Mismatch",
+      "message": "Content-Category Mismatch: Review discusses concepts (delicious, taste) that belong outside the 'Electronics' domain.",
+      "reason": "Content-Category Mismatch",
+      "_id": "fail_1791527785381",
+      "timestamp": "2026-10-09T06:36:25.381Z"
+    },
+    {
+      "product_name": "Resistance Bands",
+      "category": "Sports & Fitness",
+      "reviewer_name": "FitnessPro",
+      "rating": 5,
+      "review_snippet": "EVERYONE MUST BUY THIS RIGHT NOW DO NOT HESITATE BEST ITEM IN THE ENTIRE WORLD",
+      "errors": {
+        "review_text": "Excessive capitalization detected. Analysis blocked to prevent noise; please use standard capitalization."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785347",
+      "timestamp": "2026-10-09T06:36:25.347Z"
+    },
+    {
+      "product_name": "Hydrating Facial Cleanser",
+      "category": "Beauty & Personal Care",
+      "reviewer_name": "GlowLover",
+      "rating": 5,
+      "review_snippet": "Best cleanser ever!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "errors": {
+        "review_text": "Excessive repeated characters detected (e.g. 'soooooooo'). Please provide valid natural language."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785339",
+      "timestamp": "2026-10-09T06:36:25.339Z"
+    },
+    {
+      "product_name": "Nike Air Max 90",
+      "category": "Grocery",
+      "reviewer_name": "Runner99",
+      "rating": 4,
+      "review_snippet": "Cushioning is great for morning track runs and heel support feels sturdy.",
+      "errors": {
+        "category": "'Nike Air Max 90' is classified under 'Footwear', but 'Grocery' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Footwear"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785324",
+      "timestamp": "2026-10-09T06:36:25.324Z"
+    },
+    {
+      "product_name": "Ceramic Coffee Mug",
+      "category": "Home & Living",
+      "reviewer_name": "James P.",
+      "rating": 0,
+      "review_snippet": "Decent mug that holds heat for 45 minutes without cracking.",
+      "errors": {
+        "category": "'Ceramic Coffee Mug' is classified under 'Grocery', but 'Home & Living' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Grocery",
+        "rating": "Invalid rating: 0. Allowed values are strictly integers 1 to 5 (0, negative, and values > 5 are rejected)."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785297",
+      "timestamp": "2026-10-09T06:36:25.297Z"
+    },
+    {
+      "product_name": "Whole Milk",
+      "category": "Grocery",
+      "reviewer_name": "DairyFan",
+      "rating": 5,
+      "review_snippet": "🥛🥛🥛🥛🥛😋😋😋🔥🔥🔥👍👍👍",
+      "errors": {
+        "review_text": "Review contains only emojis without any descriptive text."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785288",
+      "timestamp": "2026-10-09T06:36:25.288Z"
+    },
+    {
+      "product_name": "Nike Air Max",
+      "category": "Footwear",
+      "reviewer_name": "AnonUser",
+      "rating": 5,
+      "review_snippet": "asdfghjklqwerty zxcvbnmasdfghjkl qwertyuiopasdfg hjklzxcvbnm",
+      "errors": {
+        "review_text": "Review contains meaningless gibberish or random character sequences."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785279",
+      "timestamp": "2026-10-09T06:36:25.279Z"
+    },
+    {
+      "product_name": "MacBook Air M2",
+      "category": "Electronics",
+      "reviewer_name": "TechTester",
+      "rating": 4,
+      "review_snippet": "This is an excessively long test text designed to exceed limits. This is an exce",
+      "errors": {
+        "review_text": "Review text exceeds maximum allowed limit (2924/2000 characters)."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785268",
+      "timestamp": "2026-10-09T06:36:25.268Z"
+    },
+    {
+      "product_name": "Yoga Mat",
+      "category": "Sports & Fitness",
+      "reviewer_name": "Chris L.",
+      "rating": 5,
+      "review_snippet": "It was okay.",
+      "errors": {
+        "review_text": "Review text is too short (12 characters). Minimum 15 characters required for forensic analysis."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785257",
+      "timestamp": "2026-10-09T06:36:25.257Z"
+    },
+    {
+      "product_name": "Ergonomic Office Chair",
+      "category": "Home & Living",
+      "reviewer_name": "Sarah T.",
+      "rating": 5,
+      "review_snippet": "",
+      "errors": {
+        "review_text": "Review text cannot be empty."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785249",
+      "timestamp": "2026-10-09T06:36:25.249Z"
+    },
+    {
+      "product_name": "iPhone 15 Pro",
+      "category": "Footwear",
+      "reviewer_name": "Sam M.",
+      "rating": 5,
+      "review_snippet": "Super responsive titanium phone with incredible optical zoom and battery enduran",
+      "errors": {
+        "category": "'iPhone 15 Pro' is classified under 'Electronics', but 'Footwear' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Electronics"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527785237",
+      "timestamp": "2026-10-09T06:36:25.237Z"
+    },
+    {
+      "product_name": "Resistance Bands",
+      "category": "Sports & Fitness",
+      "reviewer_name": "FitnessPro",
+      "rating": 5,
+      "review_snippet": "EVERYONE MUST BUY THIS RIGHT NOW DO NOT HESITATE BEST ITEM IN THE ENTIRE WORLD",
+      "errors": {
+        "review_text": "Excessive capitalization detected. Analysis blocked to prevent noise; please use standard capitalization."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722512",
+      "timestamp": "2026-10-09T06:35:22.512Z"
+    },
+    {
+      "product_name": "Hydrating Facial Cleanser",
+      "category": "Beauty & Personal Care",
+      "reviewer_name": "GlowLover",
+      "rating": 5,
+      "review_snippet": "Best cleanser ever!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "errors": {
+        "review_text": "Excessive repeated characters detected (e.g. 'soooooooo'). Please provide valid natural language."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722503",
+      "timestamp": "2026-10-09T06:35:22.503Z"
+    },
+    {
+      "product_name": "Nike Air Max 90",
+      "category": "Grocery",
+      "reviewer_name": "Runner99",
+      "rating": 4,
+      "review_snippet": "Cushioning is great for morning track runs and heel support feels sturdy.",
+      "errors": {
+        "category": "'Nike Air Max 90' is classified under 'Footwear', but 'Grocery' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Footwear"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722487",
+      "timestamp": "2026-10-09T06:35:22.487Z"
+    },
+    {
+      "product_name": "Ceramic Coffee Mug",
+      "category": "Home & Living",
+      "reviewer_name": "James P.",
+      "rating": 0,
+      "review_snippet": "Decent mug that holds heat for 45 minutes without cracking.",
+      "errors": {
+        "category": "'Ceramic Coffee Mug' is classified under 'Grocery', but 'Home & Living' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Grocery",
+        "rating": "Invalid rating: 0. Allowed values are strictly integers 1 to 5 (0, negative, and values > 5 are rejected)."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722458",
+      "timestamp": "2026-10-09T06:35:22.458Z"
+    },
+    {
+      "product_name": "Whole Milk",
+      "category": "Grocery",
+      "reviewer_name": "DairyFan",
+      "rating": 5,
+      "review_snippet": "🥛🥛🥛🥛🥛😋😋😋🔥🔥🔥👍👍👍",
+      "errors": {
+        "review_text": "Review contains only emojis without any descriptive text."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722450",
+      "timestamp": "2026-10-09T06:35:22.450Z"
+    },
+    {
+      "product_name": "Nike Air Max",
+      "category": "Footwear",
+      "reviewer_name": "AnonUser",
+      "rating": 5,
+      "review_snippet": "asdfghjklqwerty zxcvbnmasdfghjkl qwertyuiopasdfg hjklzxcvbnm",
+      "errors": {
+        "review_text": "Review contains meaningless gibberish or random character sequences."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722441",
+      "timestamp": "2026-10-09T06:35:22.441Z"
+    },
+    {
+      "product_name": "MacBook Air M2",
+      "category": "Electronics",
+      "reviewer_name": "TechTester",
+      "rating": 4,
+      "review_snippet": "This is an excessively long test text designed to exceed limits. This is an exce",
+      "errors": {
+        "review_text": "Review text exceeds maximum allowed limit (2924/2000 characters)."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722430",
+      "timestamp": "2026-10-09T06:35:22.430Z"
+    },
+    {
+      "product_name": "Yoga Mat",
+      "category": "Sports & Fitness",
+      "reviewer_name": "Chris L.",
+      "rating": 5,
+      "review_snippet": "It was okay.",
+      "errors": {
+        "review_text": "Review text is too short (12 characters). Minimum 15 characters required for forensic analysis."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722421",
+      "timestamp": "2026-10-09T06:35:22.421Z"
+    },
+    {
+      "product_name": "Ergonomic Office Chair",
+      "category": "Home & Living",
+      "reviewer_name": "Sarah T.",
+      "rating": 5,
+      "review_snippet": "",
+      "errors": {
+        "review_text": "Review text cannot be empty."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722412",
+      "timestamp": "2026-10-09T06:35:22.412Z"
+    },
+    {
+      "product_name": "iPhone 15 Pro",
+      "category": "Footwear",
+      "reviewer_name": "Sam M.",
+      "rating": 5,
+      "review_snippet": "Super responsive titanium phone with incredible optical zoom and battery enduran",
+      "errors": {
+        "category": "'iPhone 15 Pro' is classified under 'Electronics', but 'Footwear' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Electronics"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527722402",
+      "timestamp": "2026-10-09T06:35:22.402Z"
+    },
+    {
+      "product_name": "Resistance Bands",
+      "category": "Sports & Fitness",
+      "reviewer_name": "FitnessPro",
+      "rating": 5,
+      "review_snippet": "EVERYONE MUST BUY THIS RIGHT NOW DO NOT HESITATE BEST ITEM IN THE ENTIRE WORLD",
+      "errors": {
+        "review_text": "Excessive capitalization detected. Analysis blocked to prevent noise; please use standard capitalization."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631905",
+      "timestamp": "2026-10-09T06:33:51.905Z"
+    },
+    {
+      "product_name": "Hydrating Facial Cleanser",
+      "category": "Beauty & Personal Care",
+      "reviewer_name": "GlowLover",
+      "rating": 5,
+      "review_snippet": "Best cleanser ever!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "errors": {
+        "review_text": "Excessive repeated characters detected (e.g. 'soooooooo'). Please provide valid natural language."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631898",
+      "timestamp": "2026-10-09T06:33:51.898Z"
+    },
+    {
+      "product_name": "Nike Air Max 90",
+      "category": "Grocery",
+      "reviewer_name": "Runner99",
+      "rating": 4,
+      "review_snippet": "Cushioning is great for morning track runs and heel support feels sturdy.",
+      "errors": {
+        "category": "'Nike Air Max 90' is classified under 'Footwear', but 'Grocery' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Footwear"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631887",
+      "timestamp": "2026-10-09T06:33:51.887Z"
+    },
+    {
+      "product_name": "Ceramic Coffee Mug",
+      "category": "Home & Living",
+      "reviewer_name": "James P.",
+      "rating": 0,
+      "review_snippet": "Decent mug that holds heat for 45 minutes without cracking.",
+      "errors": {
+        "category": "'Ceramic Coffee Mug' is classified under 'Grocery', but 'Home & Living' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Grocery",
+        "rating": "Invalid rating: 0. Allowed values are strictly integers 1 to 5 (0, negative, and values > 5 are rejected)."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631856",
+      "timestamp": "2026-10-09T06:33:51.856Z"
+    },
+    {
+      "product_name": "Whole Milk",
+      "category": "Grocery",
+      "reviewer_name": "DairyFan",
+      "rating": 5,
+      "review_snippet": "🥛🥛🥛🥛🥛😋😋😋🔥🔥🔥👍👍👍",
+      "errors": {
+        "review_text": "Review contains only emojis without any descriptive text."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631848",
+      "timestamp": "2026-10-09T06:33:51.848Z"
+    },
+    {
+      "product_name": "Nike Air Max",
+      "category": "Footwear",
+      "reviewer_name": "AnonUser",
+      "rating": 5,
+      "review_snippet": "asdfghjklqwerty zxcvbnmasdfghjkl qwertyuiopasdfg hjklzxcvbnm",
+      "errors": {
+        "review_text": "Review contains meaningless gibberish or random character sequences."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631838",
+      "timestamp": "2026-10-09T06:33:51.838Z"
+    },
+    {
+      "product_name": "MacBook Air M2",
+      "category": "Electronics",
+      "reviewer_name": "TechTester",
+      "rating": 4,
+      "review_snippet": "This is an excessively long test text designed to exceed limits. This is an exce",
+      "errors": {
+        "review_text": "Review text exceeds maximum allowed limit (2924/2000 characters)."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631831",
+      "timestamp": "2026-10-09T06:33:51.831Z"
+    },
+    {
+      "product_name": "Yoga Mat",
+      "category": "Sports & Fitness",
+      "reviewer_name": "Chris L.",
+      "rating": 5,
+      "review_snippet": "It was okay.",
+      "errors": {
+        "review_text": "Review text is too short (12 characters). Minimum 15 characters required for forensic analysis."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631825",
+      "timestamp": "2026-10-09T06:33:51.825Z"
+    },
+    {
+      "product_name": "Ergonomic Office Chair",
+      "category": "Home & Living",
+      "reviewer_name": "Sarah T.",
+      "rating": 5,
+      "review_snippet": "",
+      "errors": {
+        "review_text": "Review text cannot be empty."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631815",
+      "timestamp": "2026-10-09T06:33:51.815Z"
+    },
+    {
+      "product_name": "iPhone 15 Pro",
+      "category": "Footwear",
+      "reviewer_name": "Sam M.",
+      "rating": 5,
+      "review_snippet": "Super responsive titanium phone with incredible optical zoom and battery enduran",
+      "errors": {
+        "category": "'iPhone 15 Pro' is classified under 'Electronics', but 'Footwear' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Electronics"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631804",
+      "timestamp": "2026-10-09T06:33:51.804Z"
+    },
+    {
+      "product_name": "Wireless Earbuds",
+      "category": "Electronics",
+      "reviewer_name": "Rahul123",
+      "rating": 5,
+      "review_snippet": "AMAZING BEST EVER PRODUCT!!! Buy this right now 100% recommended guaranteed sati",
+      "errors": {
+        "review_text": "Excessive repeated characters detected (e.g. 'soooooooo'). Please provide valid natural language."
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791527631793",
+      "timestamp": "2026-10-09T06:33:51.793Z"
+    },
+    {
+      "product_name": "iPhone 15",
+      "category": "Footwear",
+      "reviewer_name": "Alex",
+      "rating": 5,
+      "review_snippet": "Amazing phone with super clear screen and battery life!",
+      "errors": {
+        "category": "'iPhone 15' is classified under 'Electronics', but 'Footwear' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Electronics"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791520159860",
+      "timestamp": "2026-10-09T04:29:19.860Z"
+    },
+    {
+      "product_name": "iPhone 15",
+      "category": "Footwear",
+      "reviewer_name": "Alex",
+      "rating": 5,
+      "review_snippet": "Amazing phone with super clear screen and battery life!",
+      "errors": {
+        "category": "'iPhone 15' is classified under 'Electronics', but 'Footwear' was selected. Please correct the category before running ML analysis.",
+        "category_mismatch": true,
+        "expected_category": "Electronics"
+      },
+      "reason": "Input validation criteria unmet",
+      "_id": "fail_1791520104091",
+      "timestamp": "2026-10-09T04:28:24.091Z"
+    }
+  ]
+}

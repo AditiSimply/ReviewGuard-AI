@@ -1,0 +1,127 @@
+{
+  "best_model": "Naive Bayes",
+  "models": {
+    "Logistic Regression": {
+      "name": "Logistic Regression",
+      "accuracy": 0.9259,
+      "precision": 1.0,
+      "recall": 0.8462,
+      "f1_score": 0.9167,
+      "confusion_matrix": {
+        "tn": 14,
+        "fp": 0,
+        "fn": 2,
+        "tp": 11,
+        "raw": [
+          [
+            14,
+            0
+          ],
+          [
+            2,
+            11
+          ]
+        ]
+      },
+      "train_samples": 81,
+      "test_samples": 27
+    },
+    "Naive Bayes": {
+      "name": "Naive Bayes",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": {
+        "tn": 14,
+        "fp": 0,
+        "fn": 0,
+        "tp": 13,
+        "raw": [
+          [
+            14,
+            0
+          ],
+          [
+            0,
+            13
+          ]
+        ]
+      },
+      "train_samples": 81,
+      "test_samples": 27
+    },
+    "SVM": {
+      "name": "SVM",
+      "accuracy": 0.963,
+      "precision": 1.0,
+      "recall": 0.9231,
+      "f1_score": 0.96,
+      "confusion_matrix": {
+        "tn": 14,
+        "fp": 0,
+        "fn": 1,
+        "tp": 12,
+        "raw": [
+          [
+            14,
+            0
+          ],
+          [
+            1,
+            12
+          ]
+        ]
+      },
+      "train_samples": 81,
+      "test_samples": 27
+    }
+  },
+  "feature_signals": {
+    "fake_indicators": [
+      "buy",
+      "best",
+      "now",
+      "stars",
+      "five stars",
+      "five",
+      "this",
+      "ever",
+      "100",
+      "buy buy",
+      "seller",
+      "everyone",
+      "buy now",
+      "immediately",
+      "right now",
+      "right",
+      "miracle",
+      "amazing",
+      "perfection",
+      "item"
+    ],
+    "genuine_indicators": [
+      "but",
+      "the",
+      "is",
+      "on",
+      "with",
+      "after",
+      "feels",
+      "and",
+      "it",
+      "slightly",
+      "without",
+      "light",
+      "was",
+      "about",
+      "has",
+      "decent",
+      "that",
+      "support",
+      "good",
+      "though"
+    ]
+  },
+  "dataset_size": 108
+}
