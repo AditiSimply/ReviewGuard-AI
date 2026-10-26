@@ -5,20 +5,21 @@ import TopNavbar from "./components/TopNavbar";
 import Sidebar from "./components/Sidebar";
 import OverviewAnalytics from "./components/OverviewAnalytics";
 import ReviewAnalyzer from "./components/ReviewAnalyzer";
-import ForensicsHub from "./components/ForensicsHub";
+import AnalysisResultCard from "./components/AnalysisResultCard";
 import BatchForensics from "./components/BatchForensics";
 import ReviewHistory from "./components/ReviewHistory";
 import ReviewerAnalytics from "./components/ReviewerAnalytics";
 import AdminPanel from "./components/AdminPanel";
 import AdminLogin from "./components/AdminLogin";
 import { useAuth } from "./context/AuthContext";
+import { X } from "lucide-react";
 
 const API_BASE = "http://127.0.0.1:5000/api";
 
 function AppContent() {
   const { user, isAdmin, logout } = useAuth();
   const [activeTab, setActiveTab] = useState("dashboard"); // Default landing page is Dashboard
-  const [forensicsSubTab, setForensicsSubTab] = useState("report");
+  const [inspectingReport, setInspectingReport] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [lastReport, setLastReport] = useState(null);
   const [refreshTrigger, setRefreshTrigger] = useState(0);
@@ -58,9 +59,7 @@ function AppContent() {
   // Handler when a review is analyzed or selected for report view
   const handleViewReport = (report) => {
     setLastReport(report);
-    setForensicsSubTab("report");
-    setActiveTab("forensics");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setInspectingReport(report);
   };
 
   const handleAnalysisComplete = (savedRecord) => {
@@ -130,16 +129,6 @@ function AppContent() {
             />
           )}
 
-          {activeTab === "forensics" && (
-            <ForensicsHub
-              subTab={forensicsSubTab}
-              setSubTab={setForensicsSubTab}
-              report={lastReport}
-              onReanalyze={handleReanalyze}
-              onViewReport={handleViewReport}
-            />
-          )}
-
           {activeTab === "history" && (
             <ReviewHistory
               onViewReport={handleViewReport}
@@ -180,6 +169,61 @@ function AppContent() {
                 onLoginSuccess={() => setActiveTab("admin")}
               />
             )
+          )}
+
+          {/* Deep-Dive Inspection Modal */}
+          {inspectingReport && (
+            <div
+              style={{
+                position: "fixed",
+                inset: 0,
+                backgroundColor: "rgba(0, 0, 0, 0.75)",
+                backdropFilter: "blur(4px)",
+                zIndex: 9999,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                padding: "20px"
+              }}
+              onClick={() => setInspectingReport(null)}
+            >
+              <div
+                style={{
+                  width: "100%",
+                  maxWidth: "1150px",
+                  maxHeight: "90vh",
+                  overflowY: "auto",
+                  backgroundColor: "var(--bg-main)",
+                  borderRadius: "16px",
+                  border: "1px solid var(--border-medium)",
+                  boxShadow: "0 20px 40px rgba(0,0,0,0.5)",
+                  padding: "24px",
+                  position: "relative"
+                }}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px", borderBottom: "1px solid var(--border-subtle)", paddingBottom: "12px" }}>
+                  <h3 style={{ margin: 0, fontSize: "18px", fontWeight: "800", color: "var(--text-primary)" }}>
+                    Review Forensic Report Deep-Dive
+                  </h3>
+                  <button
+                    onClick={() => setInspectingReport(null)}
+                    className="btn btn-secondary"
+                    style={{ padding: "6px 14px", display: "flex", alignItems: "center", gap: "6px" }}
+                  >
+                    <X size={16} />
+                    <span>Close</span>
+                  </button>
+                </div>
+                <AnalysisResultCard
+                  report={inspectingReport}
+                  onReanalyze={async (id) => {
+                    await handleReanalyze(id);
+                    setInspectingReport(null);
+                  }}
+                />
+              </div>
+            </div>
           )}
         </main>
       </div>

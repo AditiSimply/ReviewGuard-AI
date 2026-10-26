@@ -411,24 +411,32 @@ code, pre, .font-mono {
 
 .input-icon-left {
   position: absolute;
-  left: 16px;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--text-muted);
   pointer-events: none;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2;
+  height: 18px;
+  line-height: 1;
 }
 
 .input-icon-right {
   position: absolute;
-  right: 16px;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--text-muted);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2;
+  height: 18px;
+  line-height: 1;
 }
 
 .input-control {

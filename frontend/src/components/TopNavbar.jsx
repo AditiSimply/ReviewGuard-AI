@@ -8,8 +8,22 @@ export default function TopNavbar({ searchQuery, setSearchQuery, systemStatus })
   return (
     <header className="top-navbar" style={{ height: "70px", minHeight: "70px", padding: "0 28px" }}>
       {/* Global Search Bar */}
-      <div style={{ position: "relative", width: "360px", maxWidth: "100%" }}>
-        <span className="input-icon-left" style={{ left: "14px" }}>
+      <div style={{ position: "relative", width: "360px", maxWidth: "100%", display: "flex", alignItems: "center" }}>
+        <span
+          className="input-icon-left"
+          style={{
+            position: "absolute",
+            left: "14px",
+            top: "50%",
+            transform: "translateY(-50%)",
+            color: "var(--text-muted)",
+            pointerEvents: "none",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 2
+          }}
+        >
           <Search size={18} />
         </span>
         <input
@@ -18,7 +32,15 @@ export default function TopNavbar({ searchQuery, setSearchQuery, systemStatus })
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search reviews, products, reviewers..."
           className="input-control has-left-icon"
-          style={{ height: "44px", minHeight: "44px", fontSize: "14px" }}
+          style={{
+            height: "44px",
+            minHeight: "44px",
+            fontSize: "14px",
+            paddingLeft: "42px",
+            paddingTop: 0,
+            paddingBottom: 0,
+            lineHeight: "44px"
+          }}
         />
       </div>
 

@@ -3,7 +3,6 @@ import {
   ShieldCheck,
   LayoutDashboard,
   SearchCode,
-  ShieldAlert,
   History,
   Layers,
   UserCheck,
@@ -15,7 +14,6 @@ export default function Sidebar({ activeTab, setActiveTab }) {
   const navItems = [
     { id: "dashboard", label: "Dashboard", icon: LayoutDashboard },
     { id: "analyze", label: "Analyse Review", icon: SearchCode },
-    { id: "forensics", label: "Forensics", icon: ShieldAlert },
     { id: "history", label: "Review History", icon: History },
     { id: "batch", label: "Batch Analysis", icon: Layers },
     { id: "reviewer", label: "Reviewer Analytics", icon: UserCheck },

@@ -338,19 +338,20 @@ export default function OverviewAnalytics({ onViewReport, onNavigateToAnalyze, r
               <p style={{ fontSize: "14px", color: "var(--text-secondary)", marginBottom: "20px" }}>
                 Categorized by heuristic risk score thresholds
               </p>
-              <div style={{ width: "100%", height: "260px" }}>
+              <div style={{ width: "100%", height: "290px" }}>
                 <ResponsiveContainer width="100%" height="100%">
-                  <PieChart>
+                  <PieChart margin={{ top: 15, right: 25, bottom: 5, left: 25 }}>
                     <Pie
                       data={riskDistribution}
                       dataKey="count"
                       nameKey="name"
                       cx="50%"
-                      cy="50%"
-                      innerRadius={55}
-                      outerRadius={90}
+                      cy="44%"
+                      innerRadius={48}
+                      outerRadius={74}
                       paddingAngle={4}
                       label={({ count }) => count > 0 ? `${count}` : ""}
+                      labelLine={{ strokeWidth: 1.5 }}
                     >
                       {riskDistribution.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={entry.color} />
@@ -359,7 +360,7 @@ export default function OverviewAnalytics({ onViewReport, onNavigateToAnalyze, r
                     <Tooltip
                       contentStyle={{ backgroundColor: "var(--bg-card)", borderColor: "var(--border-medium)", borderRadius: 10, fontSize: 13 }}
                     />
-                    <Legend wrapperStyle={{ fontSize: 12, paddingTop: "10px" }} />
+                    <Legend wrapperStyle={{ fontSize: 12, paddingTop: "12px" }} />
                   </PieChart>
                 </ResponsiveContainer>
               </div>
@@ -373,9 +374,9 @@ export default function OverviewAnalytics({ onViewReport, onNavigateToAnalyze, r
               <p style={{ fontSize: "14px", color: "var(--text-secondary)", marginBottom: "20px" }}>
                 AFINN sentiment polarity with negation scope analysis
               </p>
-              <div style={{ width: "100%", height: "260px" }}>
+              <div style={{ width: "100%", height: "290px" }}>
                 <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={sentimentDistribution}>
+                  <BarChart data={sentimentDistribution} margin={{ top: 10, right: 10, bottom: 5, left: 0 }}>
                     <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
                     <XAxis dataKey="sentiment" stroke="var(--text-muted)" fontSize={13} />
                     <YAxis stroke="var(--text-muted)" fontSize={13} allowDecimals={false} />
