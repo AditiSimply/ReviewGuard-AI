@@ -8,7 +8,6 @@ import ReviewAnalyzer from "./components/ReviewAnalyzer";
 import AnalysisResultCard from "./components/AnalysisResultCard";
 import BatchForensics from "./components/BatchForensics";
 import ReviewHistory from "./components/ReviewHistory";
-import ReviewerAnalytics from "./components/ReviewerAnalytics";
 import AdminPanel from "./components/AdminPanel";
 import AdminLogin from "./components/AdminLogin";
 import { useAuth } from "./context/AuthContext";
@@ -144,12 +143,6 @@ function AppContent() {
                 setActiveTab("history");
               }}
             />
-          )}
-
-          {activeTab === "reviewer" && (
-            <div style={{ width: "100%", maxWidth: "1360px", margin: "0 auto", padding: "24px 28px 48px" }}>
-              <ReviewerAnalytics onViewReport={handleViewReport} />
-            </div>
           )}
 
           {/* ADMIN TAB: Renders AdminLogin if not authenticated as admin; AdminPanel when authenticated */}

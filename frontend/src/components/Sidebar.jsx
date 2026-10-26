@@ -5,7 +5,6 @@ import {
   SearchCode,
   History,
   Layers,
-  UserCheck,
   Sparkles
 } from "lucide-react";
 
@@ -16,7 +15,6 @@ export default function Sidebar({ activeTab, setActiveTab }) {
     { id: "analyze", label: "Analyse Review", icon: SearchCode },
     { id: "history", label: "Review History", icon: History },
     { id: "batch", label: "Batch Analysis", icon: Layers },
-    { id: "reviewer", label: "Reviewer Analytics", icon: UserCheck },
     { id: "admin", label: "Admin Panel", icon: ShieldCheck, badge: "Admin" }
   ];
 
